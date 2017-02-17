@@ -1,0 +1,21 @@
+{
+  "name": "xcode-add-missing-environments",
+  "version": "1.0.0",
+  "description": "Add staging and preprod environments to xcode project from node",
+  "main": "index.js",
+  "bin": {
+    "xcode-add-missing-environments": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Soluti's Mobile team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:SolutiLyon-ReactNative/xcode-add-missing-environments.git"
+  },
+  "dependencies": {
+    "optimist": "^0.6.1"
+  }
+}
