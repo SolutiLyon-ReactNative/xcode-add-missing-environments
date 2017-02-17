@@ -5,10 +5,10 @@ var randomBytes = require('crypto').randomBytes;
 var argv = require('optimist').argv;
 
 if (argv._.length != 1) {
-    console.error("Usage: " + argv["$0"] + " <input_file_path>");
+  console.error("Usage: " + argv["$0"] + " <input_file_path>");
 }
 
-var xcode = require(argv._[0]);
+var xcode = require(process.cwd() + "/" + argv._[0]);
 
 // GLOBAL
 var references = Object.keys(xcode.objects);

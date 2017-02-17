@@ -2,6 +2,12 @@
 
 A node script to add Staging and PreProd environments to iOS project configuration.
 
+## Installation
+
+Just run npm to install it globaly :
+
+``npm install -g xcode-add-missing-environments`
+
 ## How to use it
 
 First convert your pbxproj to JSON format :
