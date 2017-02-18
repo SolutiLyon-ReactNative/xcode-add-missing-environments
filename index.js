@@ -64,6 +64,9 @@ function createProjectConfiguration(name, from) {
   }
 }
 
+createProjectConfiguration("Dev", "Release");
+createTargetConfiguration("Dev", "Release");
+
 createProjectConfiguration("Staging", "Release");
 createTargetConfiguration("Staging", "Release");
 
